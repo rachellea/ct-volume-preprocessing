@@ -4,19 +4,20 @@ ct-volume-preprocessing includes:
 * preprocess_volumes.py, an end-to-end Python
 pipeline for complete preprocessing of computed tomography (CT) scans from
 DICOM format to clean numpy arrays suitable for machine learning.
-* download_volumes.py, an example pipeline for downloading CT data in bulk.
-* visualize_volumes.py, which contains code for visualizing CT scans in
+* download_volumes.py, an example Python pipeline for downloading CT data in bulk.
+* visualize_volumes.py, which contains Python code for visualizing CT scans in
 an interactive way, visualizing CT scans as GIFs, and making other figures
 from CT data.
 
 ## Requirements
 
-preprocess_volumes.py can be run using the Singularity container or
-the requirements defined here: https://github.com/rachellea/research-container
+All pipelines are implemented in Python and can be run using the Singularity
+container or the requirements defined here:
+https://github.com/rachellea/research-container
 
 I've also included a requirements.txt in this repo which was
 obtained by pruning out everything I don't think is necessary from the
-complete requirements file provided in the research-container repo. 
+complete requirements.txt provided in the research-container repo. 
 
 ## Details: Preprocessing CT Data
 
@@ -65,10 +66,8 @@ logic for selecting the original series with the greatest number of slices.
 
 ## Credits
 
-Thank you to Innolitics for their dicom-numpy repository. The code in
-the dicom_numpy directory is modified from Innolitics' dicom-numpy repo, and
-is used to do the slice ordering step:
+The slice ordering step uses code modified from Innolitics' dicom-numpy repo:
 
 https://github.com/innolitics/dicom-numpy/blob/master/dicom_numpy/combine_slices.py
 
-The dicom-numpy code was originally downloaded on September 19, 2019.
+This dicom-numpy code was originally downloaded on September 19, 2019.
