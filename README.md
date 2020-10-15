@@ -22,14 +22,12 @@ complete requirements.txt provided in the research-container repo.
 ## Details: Preprocessing CT Data
 
 The steps of the CT volume preprocessing pipeline are described in detail in
-"Appendix A.2 CT Volume Preparation" of the following paper:
+"Appendix A.2 CT Volume Preparation" of our [Medical Image Analysis paper](https://doi.org/10.1016/j.media.2020.101857).
+The paper is also available [on arXiv](https://arxiv.org/ftp/arxiv/papers/2002/2002.04752.pdf).
 
-Draelos et al. Machine-Learning-Based Multiple Abnormality Prediction with
-Large-Scale Chest Computed Tomography Volumes.
-https://arxiv.org/ftp/arxiv/papers/2002/2002.04752.pdf
-Accepted for publication in Medical Image Analysis (2020).
+If you find this work useful in your research, please consider citing us:
 
-If you find this work useful in your research, please consider citing us.
+Draelos, Rachel Lea, et al. "Machine-Learning-Based Multiple Abnormality Prediction with Large-Scale Chest Computed Tomography Volumes." *Medical Image Analysis* (2020).
 
 The CleanCTScans class in preprocess_volumes.py assumes that the CT scans
 to be processed are saved in one directory and that each CT scan is saved as
