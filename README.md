@@ -27,7 +27,7 @@ The paper is also available [on arXiv](https://arxiv.org/ftp/arxiv/papers/2002/2
 
 If you find this work useful in your research, please consider citing us:
 
-Draelos, Rachel Lea, et al. "Machine-Learning-Based Multiple Abnormality Prediction with Large-Scale Chest Computed Tomography Volumes." *Medical Image Analysis* (2020).
+Draelos R.L., et al. "Machine-Learning-Based Multiple Abnormality Prediction with Large-Scale Chest Computed Tomography Volumes." *Medical Image Analysis* (2020).
 
 The CleanCTScans class in preprocess_volumes.py assumes that the CT scans
 to be processed are saved in one directory and that each CT scan is saved as
